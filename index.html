@@ -12,19 +12,17 @@
     <link rel="stylesheet" href="./CSS/bootstrap.css">
     <link rel="stylesheet" href="./CSS/styles.css">
 </head>
+
 <body>
     <div class="container-fluid container-linear">
         <div class="row container-card">
-            <div class="offset-lg-3 col-md-3 col-lg-3 card-col">
+            <div class="offset-lg-3 col-md-3 col-lg-3 card-col-3">
                 <div class=" card card-perfil">
                     <div class="img-card-perfil">
                         <img src="./imagens/foto.jpg" alt="Foto de Perfil" class="card-imagem mx-auto d-block">
                     </div>
                     <div class="card-body">
-                        <h5 
-                            class="card-title"
-                            style="text-align: center"
-                            id="nome-no-html">
+                        <h5 class="card-title" style="text-align: center" id="nome-no-html">
                         </h5>
                         <hr class="hr" />
                         <p style="text-align: center" id="cargo-no-html"></p>
@@ -33,87 +31,193 @@
                             <button onclick="clickNoSobre()" class="btn mr-1" id="btn-sobre">
                                 Sobre
                             </button>
-                            <button onclick="clickNoProjetos()" class="btn ml-1 btn-card" id="btn-projetos">
-                                Projetos
+                            <button onclick="clickNoExperiências()" class="btn ml-1 btn-card" id="btn-experiências">
+                                Experiências
+                            </button>
+                            <button onclick="clickNoCursos()" class="btn ml-1 btn-card" id="btn-cursos">
+                                Cursos
                             </button>
                         </div>
                         <div class="icon-redes-sociais">
                             <div class="links-redes-sociais mt-2">
-                                <a href="#">
+                                <a class="links-redes-sociais" target="_blank"
+                                    href="https://www.facebook.com/PulgaSan/">
                                     <i class="fab fa-facebook"></i>
                                 </a>
-                                <a href="#">
+                                <a class="links-redes-sociais" target="_blank" href="https://twitter.com/_PulgaSan">
                                     <i class="fab fa-twitter"></i>
                                 </a>
-                                <a href="#">
+                                <a class="links-redes-sociais" target="_blank"
+                                    href="https://www.linkedin.com/in/alessandro-xavier-a509b21a3/">
                                     <i class="fab fa-linkedin"></i>
                                 </a>
-                                <a href="#">
+                                <a class="links-redes-sociais" target="_blank"
+                                    href="https://www.instagram.com/el_pulgaa/">
                                     <i class="fab fa-instagram"></i>
+                                </a>
+                                <a class="links-redes-sociais" target="_blank"
+                                    href="https://wa.me/?text=Olá!%20:)%20podemos%20te%20ajudar?5554991239841">
+                                    <i class="fab fa-whatsapp"></i>
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>        
+            </div>
             <div class="col-md-6 col-lg-6 text-body">
                 <div class="text" id="texto-1">
-                 <h1 class="title-text"> Olá</h1>
-                 <h4 class="title-subtitle"> Bem Vindo  ao Meu Currículo</h4>
+                    <h1 class="title-text"> Olá</h1>
+                    <h4 class="title-subtitle"> Bem Vindo ao Meu Currículo</h4>
                     <p>
-                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel lorem nec dui tincidunt commodo.
+                        Me chamo <b>Alessandro</b>, tenho 26 Anos, União estável, Carteira de Habiliatação AD, Estudante
+                        de Análise e Desenvolvimento de
+                        Sistemas em Cruzeiro do Sul (FSG), cursando 3ª
+                        Semestre. No Futuro Grande Developer com Growdev.
                     </p>
                     <p>
-                     Curabitur laoreet, nulla eu iaculis semper, ligula lacus ultricies neque, a iaculis lectus arcu vel eros
+                        <i>"Nunca deixe que uma crítica derrube aquilo que você construiu. Quem te define é o teu
+                            caráter,
+                            e não a opinião dos outros".</i>
                     </p>
                 </div>
 
                 <div class="text" id="texto-2">
-                    <h1 class="title-text"> Projetos </h1>
-                    <h4 class="title-subtitle"> Alguns Projetos que Trabalhei</h4>
-                       <p>
-                         <a target="_blank" href="https://www.growdev.com.br">Site da Growdev - Este site foi desemvolvido em ReactJS.</a>
-                       </p>                       
-                </div>                   
-            </div>            
+                    <h1 class="title-text"> Experiências Profissionais</h1>
+                    <p>
+                    <ul>             
+                        <li><h5><b>Hospital Pompeia</b></h5>
+                            <ul><b>Período:</b> Fevereiro/ 2019 – Atualmente</ul>
+                            <ul><b>Turno:</b> Manhã</ul>
+                            <ul><b>Função:</b>Técnico de Enfermagem</ul>
+                            <ul><b>Atividades desempenhadas:</b> Técnico de enfermagem no setor de Pronto Atendimento,
+                            Pronto Socorro e UTI.</ul>
+                        </li>
+                        <li><h5><b>Resgate Sul Emergências Médicas</b></h5>
+                            <ul><b>Período:</b>Setembro/2016 – Atualmente</ul>
+                            <ul><b>Turno:Noite</b> </ul>
+                            <ul><b>Função:</b>Técnico de Enfermagem e Condutor</ul>
+                            <ul><b>Atividades desempenhadas:</b>técnico de enfermagem e condutor de ambulância de suporte
+                             básico e avançado, atendimento domiciliar e empresarial, apoio a eventos, translado e
+                             evacuação de paciente entre municípios e hospitais.
+                            </ul>
+                        </li>
+                        <li><h5><b>Exército Brasileiro – 3º Grupo de Artilharia Antiaére</b></h5>
+                            <ul><b>Período:</b>Março/2013 – Fevereiro/2019</ul>
+                            <ul><b>Turno:</b>Integral</ul>
+                             <ul><b>Função:</b>Cabo de saúde</ul>
+                             <ul><b>Atividades desempenhadas:</b>Motorista de veículos e viaturas de emergência, Motorista
+                                viaturas oficiais, Agrale marruá ½, ton, ¾ ton, caminhões militares, atendente Padioleiro,
+                                Socorrista do Pelotão de Operações especiais, auxiliar mediato do médico da comissão de
+                                 seleção como auxiliar exames médicos, motorista de Cargas perigosas, aux. odontológico,
+                                marcar consultas e exames no hospital da federação, partes administrativas de saúde,
+                                curativos, vacinas, aplicação de medicações, chefe da equipe de APH da OM.
+                            </ul>
+                        </li>
+                        <li><h5><b>5º Coordenadoria Regional de Saúde</b></h5>
+                            <ul><b>Período:</b>Julho/2009 a Julho/2011</ul>
+                             <ul><b>Turno:</b>Tarde </ul>
+                            <ul><b>Função:</b>Estágiario do Ensino Médio</ul>
+                            <ul><b>Atividades desempenhadas:</b>Recepcionista, telefonista, envio de fax, conferi envio e
+                                recebimento de malote, auxiliar do almoxarifado e nas partes administrativas.
+                             </ul>
+                        </li>
+                    </ul>   
+                    </p>
+                </div>
+
+                <div class="text" id="texto-3">
+                    <h1 class="title-text"> Cursos </h1>
+                    <h4 class="title-subtitle"> Alguns Cursos Realizados</h4>
+                    <p>
+                    <ul>
+                        <li><b>Curso HTML5, CSS3 e JavaScript para Iniciantes</b> – Cursos Udemy – Promovido pelo Becode
+                            </>
+                            Descomplicando a TI, com carga horaria de 2 horas.
+                        </li>
+                        <li><b>Curso Completo de Lógica de Programação e Algoritmos</b> – Cursos Udemy - Promovido pelo
+                            Becode </>
+                            Descomplicando a TI, com carga horaria de 2,5 horas.
+                        </li>
+                        <li><b>Orientação a Objetos com Java</b> - Cursos Udemy – Promovido pelo Jakson Pires Engenheiro
+                            de
+                            Software, com carga horaria de 4,5 horas.
+                        </li>
+                        <li><b>Modelagem do Banco de Dados MySQL e Linguagem SQL do Zero</b> – Cursos Udemy – Promovido
+                            pelo
+                            Becode </> Descomplicando a TI, com carga horaria de 2 horas.
+                        </li>
+                    </ul>
+                    </p>
+                </div>
+
+            </div>
         </div>
     </div>
     <footer class="container">
         <div class="row" id="footer-elementos">
             <div class="col-md-3 col-lg-3">
-                <h4>Telefone</h4>
-                <p>(54)99123-9841</p>
+                <div class="telefone">
+                    <h4>Telefone/WhatsApp <i class="fab fa-whatsapp"></i> </h4>
+                    <p>(054)99123-9841</p>
+                    <p><a target="_blank" href="https://wa.me/?text=Olá!%20:)%20podemos%20te%20ajudar?5554991239841"><i
+                                class="fab fa-whatsapp"></i> Enviar WhatsApp</a></p>
+                </div>
             </div>
             <div class="col-md-3 col-lg-3">
                 <div class="email">
-                    <h4>E-mail</h4>
+                    <h4>E-mail <i class="fa fa-envelope"></i></h4>
                     <p>alessandro_sx@outlook.com</p>
+                    <p>
+                        <a class="email" href="mailto:alessandro_sx@outlook.com?subject=Hello%20again"><i
+                                class="fa fa-envelope"></i> Enviar E-mail</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3">
+                <div class="meu-endereço">
+                    <h4>Endereço <i class="fa fa-map-marker"></i></h4>
+                    <p>
+                        <a class="meu-endereço" target="_blank"
+                            href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d870.8325668932713!2d-51.193867170789495!3d-29.184401998887704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951ea338922eced9%3A0x634267b505f118c!2sRua%20Fernando%20Francisco%20Kaller%2C%20570%20-%20S%C3%A3o%20Leopoldo%2C%20Caxias%20do%20Sul%20-%20RS%2C%2095098-020!5e0!3m2!1spt-BR!2sbr!4v1611876132876!5m2!1spt-BR!2sbr">
+                            Rua Maria Prezzi Postalli nº2001, Ap 304,Bairro São Leopoldo. Caxias do Sul
+                        </a>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d870.8325668932713!2d-51.193867170789495!3d-29.184401998887704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951ea338922eced9%3A0x634267b505f118c!2sRua%20Fernando%20Francisco%20Kaller%2C%20570%20-%20S%C3%A3o%20Leopoldo%2C%20Caxias%20do%20Sul%20-%20RS%2C%2095098-020!5e0!3m2!1spt-BR!2sbr!4v1611876132876!5m2!1spt-BR!2sbr"
+                            width="200" height="150" frameborder="0" style="border:0;" allowfullscreen=""
+                            aria-hidden="false" tabindex="0">
+                        </iframe>
+                    </p>
                 </div>
             </div>
             <div class="col-md-3 col-lg-3">
                 <h4>Siga</h4>
                 <div class="links-redes-sociais">
-                    <a href="#">
+                    <a class="links-redes-sociais" target="_blank" href="https://www.facebook.com/PulgaSan/">
                         <i class="fab fa-facebook"></i>
                     </a>
-                    <a href="#">
+                    <a class="links-redes-sociais" target="_blank" href="https://twitter.com/_PulgaSan">
                         <i class="fab fa-twitter"></i>
                     </a>
-                    <a href="#">
+                    <a class="links-redes-sociais" target="_blank"
+                        href="https://www.linkedin.com/in/alessandro-xavier-a509b21a3/">
                         <i class="fab fa-linkedin"></i>
                     </a>
-                    <a href="#">
+                    <a class="links-redes-sociais" target="_blank" href="https://www.instagram.com/el_pulgaa/">
                         <i class="fab fa-instagram"></i>
-                    </a>                                        
-                </div>                
+                        <a class="links-redes-sociais" target="_blank"
+                            href="https://wa.me/?text=Olá!%20:)%20podemos%20te%20ajudar?5554991239841">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                </div>
             </div>
         </div>
         <div class="row text-center mb-2">
             <div class="col-lg-12 col-md-12">
-                <small> 2021<a href="#">Growdev</a></small>
+                <small> 2021<a href="https://www.growdev.com.br/">Growdev</a></small>
             </div>
         </div>
     </footer>
     <script src="./JS/index.js"></script>
 </body>
+
 </html>

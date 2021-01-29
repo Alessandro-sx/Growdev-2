@@ -1,5 +1,5 @@
 body{
-    background-color: #f5f5f5;
+    background-color: #e6e3e3;
 }
 
 .container-card {
@@ -19,18 +19,18 @@ body{
 .hr {
     height: 3px;
     background-color: black;
-    width: 75% center;
+    width: 30% center;
 }
 
 .card-imagem {
     height: 200px;
     width: 200px;
-    border-radius: 50%;
+    border-radius: 40%;
     margin-top: 1em;
 }
 
 .card-perfil {
-    background-color: #19def0 !important;
+    background-color: #581818 !important;
     box-shadow: 0px 0px 50px black ;     
 }
 
@@ -47,16 +47,27 @@ body{
     color: #fff !important;
 }
 
-#btn-projetos {
+#btn-experiências {
     border: 2px solid black;
     border-radius: 20px;
     padding: 5px 25px;
     font-weight: 600px;
+    background-color: #515155;
+}
+
+#btn-cursos {
+    border: 2px solid black !important;
+    background-color: rgb(170, 170, 170);
+    border-radius: 20px;
+    padding: 5px 25px;
+    font-weight: 600px;
+    color:antiquewhite ;
 }
 
 .icon-redes-sociais {
     text-align: center;
-    padding: 10px;
+    padding: 20px;
+    text-decoration: none;
 }
 
 .title-text {
@@ -71,15 +82,25 @@ body{
 
 .text {
     padding: 5px 17px;
+    text-decoration:none;
 }
 .links-redes-sociais {
     text-decoration: none;    
+}
+.meu-endereço {
+    text-decoration: none !important;
+    color:black
+}
+.telefone {
+    text-decoration: none;
+    color: black;
 }
 
 .links-redes-sociais i {
     color: black;
     font-size: 25px;
     padding: 10px;
+    text-decoration: none;
 }
 
 #footer-elementos {
@@ -91,9 +112,9 @@ body{
     padding: 15px 0px 15px 0px;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 900px) {
     .container-linear {
-      background: linear-gradient(to left, #fff 60%, #19DEF0 40%)
+      background: linear-gradient(to left, #fff 60%, #9b3737 40%)
     }
 
     .card-cal {
@@ -135,5 +156,9 @@ body{
 } 
 
 #texto-2{
+    display: none;
+}
+
+#texto-3{
     display: none;
 }
